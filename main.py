@@ -3,13 +3,13 @@ def greaterThan(x,y):
         return "true"
     else:
         return "false"
-def equalTo(x,y):
-    if x == y:
+def lessThan(x,y):
+    if x < y:
         return "true"
     else:
         return "false"
-def lessThan(x,y):
-    if x < y:
+def equalTo(x,y):
+    if x == y:
         return "true"
     else:
         return "false"
@@ -23,4 +23,5 @@ def lessOrEqual(x,y):
         return "true"
     else:
         return "false"
+print(lessOrEqual(3,4))
 
